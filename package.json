@@ -1,1 +1,4 @@
-```
+"scripts": {
+    "start": "node index.js",   // Name: "start" -> Command: runs your application
+    "test": "echo \"Error...\"" // Name: "test"  -> Command: runs your testing suite
+  }
