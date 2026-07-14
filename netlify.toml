@@ -1,0 +1,7 @@
+# Static site: a single HTML page lives at the repo root, so there is no
+# build step to run. Netlify serves the repo root directly.
+# These settings take precedence over the build command and publish
+# directory configured in the Netlify UI.
+[build]
+  command = ""
+  publish = "."
